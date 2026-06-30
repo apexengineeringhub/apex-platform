@@ -1,6 +1,6 @@
 # Project APEX
-> Enterprise AI Backend Platform
-  Enterprise AI Backend Platform built with Java, Spring Boot, AI and Cloud Native technologies.
+> Building Enterprise AI Backend Systems with Java, Spring Boot and AI.
+  This repository contains Project APEX, a hands-on engineering journey to build production-ready AI backend applications using Java, Spring Boot, RAG, AI Agents and Cloud Native technologies.
 
 ## Vision 
 
