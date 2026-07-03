@@ -9,9 +9,10 @@
 -[x] APEX-018 - Sprint Documentation
 -[x] APEX-019 - Create Project Foundation Structure
 -[x] APEX-020 - Create Health Check REST API
+-[x] APEX-021 - Establish Engineering Handbook Standards
 
 ## Current Story:
--[ ] APEX-021 - Establish Engineering Handbook Standards 
+-[ ] APEX-022 - TBD
 
 ## Last Updated
 2026-07-03
