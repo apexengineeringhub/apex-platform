@@ -1,4 +1,4 @@
-#Project Status 
+# Project Status 
 
 ## Current Sprint: Sprint 1
 
