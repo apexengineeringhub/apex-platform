@@ -9,6 +9,8 @@ Version: 1.0
 
 **Story:** APEX-XXX - Story Name
 
+
+
 **Branch:** feature/APEX-XXX-story-name
 
 ---
@@ -42,6 +44,8 @@ Version: 1.0
 ---
 
 # 📌 Story Progress
+
+## Story Summary 
 
 Current Status
 
@@ -113,7 +117,7 @@ Current Status
 
 ---
 
-## Lessons Learned
+##  Knowledge Gained
 
 -
 
