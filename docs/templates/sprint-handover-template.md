@@ -1,64 +1,115 @@
-# Sprint <X> Handover
+# Sprint X Handover
 
 ## Sprint Goal
 
-- Implement Global Exception 
+-
 
 ---
 
 ## Stories Completed
 
-- [x] Apex 1
-- [x] Apex 2
+- [x] APEX-XXX
+- [x] APEX-XXX
 
 ---
 
-## Major Achievements
+## Major Features Delivered
 
-- x
+-
 
 ---
 
 ## Architecture Decisions
 
+-
+
 ---
 
 ## Lessons Learned
 
-- x
+-
+
 ---
 
 ## Challenges
 
-- x 
+-
 
 ---
 
 ## Process Improvements
 
 -
----
-
-## Metrics
-
-- Stories Completed:
-
-- Hours Invested:
-
-- Git Commits:
-
-- Videos Published:
-
-- DSA Problems Solved:
 
 ---
 
-## Ready for Next Sprint
+# Sprint Closure Checklist
 
-- [ ] Code Complete
-- [ ] Documentation Updated
-- [ ] Roadmap Updated
-- [ ] Project Status Updated
+## Stories
 
+- [ ] All planned stories completed or re-planned
+- [ ] Jira stories updated
+- [ ] Acceptance criteria verified
 
+---
 
+## Source Code
+
+- [ ] Feature branches merged into develop
+- [ ] Code pushed to remote
+- [ ] Repository clean
+
+---
+
+## Quality
+
+- [ ] Build successful
+- [ ] Manual testing completed
+- [ ] Critical issues resolved
+
+---
+
+## Documentation
+
+- [ ] Project Status updated
+- [ ] Product Roadmap reviewed
+- [ ] Engineering Journal completed
+- [ ] README reviewed (if required)
+
+---
+
+## Retrospective
+
+### What went well?
+
+-
+
+### Challenges
+
+-
+
+### Lessons Learned
+
+-
+
+### Improvements for Next Sprint
+
+-
+
+---
+
+## Sprint Metrics
+
+Stories Completed:
+
+Hours Invested:
+
+Major Features:
+
+---
+
+## Sprint Sign-off
+
+- [ ] Sprint Goal Achieved
+- [ ] Sprint Officially Closed
+- [ ] Ready for Next Sprint
