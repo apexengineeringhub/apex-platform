@@ -10,9 +10,10 @@
 -[x] APEX-019 - Create Project Foundation Structure
 -[x] APEX-020 - Create Health Check REST API
 -[x] APEX-021 - Establish Engineering Handbook Standards
+-[X] APEX-022 - Global Exception Handling
 
 ## Current Story:
--[ ] APEX-022 - TBD
+-[ ] APEX-023 - TBD
 
 ## Last Updated
-2026-07-03
+2026-07-04
