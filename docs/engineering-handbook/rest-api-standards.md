@@ -18,3 +18,21 @@ public class HealthController {
         return "APEX Platform is running successfully.";
     }
 }
+```
+
+## API Response Standard
+All REST controllers should return `ResponseEntity<T>`.
+
+Always use the explicit status builder.
+
+### Example:
+
+```java
+
+return ResponseEntity.status(HttpStatus.OK).body(response);
+
+```
+Avoid mixing different response styles such as:
+- ResponseEntity.ok(...)
+- returning raw objects
+- returning raw strings
