@@ -2,6 +2,12 @@
 
 Every Project APEX story follows this workflow.
 
+## Purpose
+
+This workflow ensures every Project APEX story is developed
+using the same engineering process, resulting in consistent,
+high-quality delivery.
+
 ---
 
 ## Phase 1 - Planning
@@ -18,7 +24,7 @@ Every Project APEX story follows this workflow.
 
 - [ ] Code Implemented
 - [ ] Build Successful
-- [ ] Manual Testing Completed
+- [ ] Unit Tests Added (if applicable)
 - [ ] Code Reviewed
 
 ---
@@ -27,6 +33,36 @@ Every Project APEX story follows this workflow.
 
 - [ ] Git Commit Created
 - [ ] Code Pushed
+- [ ] Pull Request
 - [ ] Project Status Updated
 - [ ] Engineering Logbook Updated
 - [ ] Jira Status Changed to Done
+
+
+## Flow 
+
+```text
+Story Created
+│
+▼
+Planning
+│
+▼
+Development
+│
+▼
+Testing
+│
+▼
+Code Review
+│
+▼
+Commit & Push
+│
+▼
+Documentation
+│
+▼
+Done
+
+```
