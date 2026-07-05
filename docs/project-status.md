@@ -1,6 +1,6 @@
 # Project Status 
 
-## Current Sprint: Sprint 1
+## Current Sprint: Sprint 1 – Closed 🎉
 
 ### Completed Stories: 
 -[x] APEX-015 - Define Coding Standards
@@ -16,4 +16,4 @@
 -[ ] APEX-023 - TBD
 
 ## Last Updated
-2026-07-04
+2026-07-05

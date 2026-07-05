@@ -3,6 +3,8 @@
 ## Phase 1 - 
 ### Foundation
 
+Sprint 1 : Closed
+
 
 ↓
 
