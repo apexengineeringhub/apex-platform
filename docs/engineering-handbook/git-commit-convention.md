@@ -27,6 +27,8 @@ build     - Build configuration
 ci        - CI/CD changes
 perf      - Performance improvements
 docs      - Documentation changes
+
+
 ```
 
 
@@ -47,5 +49,9 @@ refactor(service): simplify health service
 test(controller): add health controller tests
 
 chore(project): initialize Spring Boot project
+
+merge(apex-022): merge global exception handling into develop
+
+release(v0.1.0): Sprint 1 foundation
 ```
 
