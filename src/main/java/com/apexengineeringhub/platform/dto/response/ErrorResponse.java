@@ -1,4 +1,4 @@
-package com.apexengineeringhub.platform.dto;
+package com.apexengineeringhub.platform.dto.response;
 
 import lombok.AllArgsConstructor;
 

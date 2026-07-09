@@ -1,5 +1,6 @@
 package com.apexengineeringhub.platform.common.api;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -12,6 +13,7 @@ import static org.springframework.http.HttpStatus.OK;
 @Getter
 @Builder
 @AllArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ApiResponse<T> {
     private final Instant timestamp;
     private final int status;
