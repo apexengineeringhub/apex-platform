@@ -22,7 +22,7 @@ public class GlobalExceptionHandler {
     /**
      * Handles unexpected exceptions and returns a standardized
      *  internal server error response.
-     * @param e
+     * @param exception
      * @param request
      * @return
      */
