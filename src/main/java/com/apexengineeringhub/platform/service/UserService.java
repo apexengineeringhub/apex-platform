@@ -9,9 +9,10 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class UserService {
-    public void createUser(CreateUserRequest userRequest){
+    public String createUser(CreateUserRequest userRequest){
         log.info("Starting user creation process for email={}", userRequest.getEmail());
 
         log.info("User creation process completed successfully for email={}", userRequest.getEmail());
+        return "User created successfully.";
     }
 }
