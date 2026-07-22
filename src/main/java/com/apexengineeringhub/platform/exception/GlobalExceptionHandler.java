@@ -4,6 +4,7 @@ import com.apexengineeringhub.platform.common.api.ApiResponse;
 import com.apexengineeringhub.platform.common.api.ErrorDetail;
 import com.apexengineeringhub.platform.dto.response.ErrorResponse;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -18,6 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestControllerAdvice
+@Slf4j
 public class GlobalExceptionHandler {
     /**
      * Handles unexpected exceptions and returns a standardized
@@ -29,7 +31,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ApiResponse<Void>> handleException(Exception exception, HttpServletRequest request) {
 
-        exception.printStackTrace();
+        log.error("Unexpected exception occurred while processing request.", exception);
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR,"An unexpected error occurred."));
     }
 
