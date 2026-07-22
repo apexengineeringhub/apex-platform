@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: apex-platform
+server:
+  port: 9090
+## add looger file
+logging:
+  level:
+    root: INFO
+    com.apexengineeringhub.platform: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

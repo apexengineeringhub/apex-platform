@@ -9,6 +9,9 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+
+
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,9 +26,11 @@ import org.springframework.web.bind.annotation.RestController;
         name = "User Management API",
         description = "APIs for managing users."
   )
+@Slf4j
 @RestController
 @RequestMapping("/api/v1/users")
 public class UserController {
+
     @Operation(
             summary = "Create a new user",
             description = "Creates a new user after validating the request payload."
@@ -51,6 +56,8 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<ApiResponse<String>> addUser(@Valid @RequestBody  CreateUserRequest createUserRequest){
+        log.info("Received request to create a new user.");
         return ResponseEntity.ok(ApiResponse.success("User created successfully."));
+
     }
 }
