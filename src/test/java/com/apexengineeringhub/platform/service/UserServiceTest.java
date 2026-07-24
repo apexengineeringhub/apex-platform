@@ -1,19 +1,29 @@
 package com.apexengineeringhub.platform.service;
 
 import com.apexengineeringhub.platform.dto.request.CreateUserRequest;
+import com.apexengineeringhub.platform.repository.UserRepository;
 import com.apexengineeringhub.platform.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+@ExtendWith(MockitoExtension.class)
 class UserServiceTest {
-    private UserService userService;
+
 
     @BeforeEach
     void setUp() {
-        userService = new UserService();
+
     }
+    @Mock
+    private UserRepository userRepository;
+    @InjectMocks
+    private UserService userService;
+
     @Test
     void shouldCreateUserSuccessfully() {
         // Arrange
